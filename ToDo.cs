@@ -1,0 +1,22 @@
+﻿using System;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
+namespace Lesson5
+{
+    public class ToDo
+    {
+        public ToDo() { }
+        public string Title { get; set; }
+     
+        public bool isDone { get; set; }
+      
+        public void duty( string str, bool done)
+        {
+          Title = str ;
+          isDone = done;
+        }
+
+
+    }
+}
